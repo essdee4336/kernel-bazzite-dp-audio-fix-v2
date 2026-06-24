@@ -2027,7 +2027,7 @@ if [ "%{patches}" != "%%{patches}" ] ; then
   done
 fi 2>/dev/null
 
-patch_command='git --work-tree=. apply'
+patch_command='git --work-tree=. apply --ignore-space-change --ignore-whitespace'
 ApplyPatch()
 {
   local patch=$1
