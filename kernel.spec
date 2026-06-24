@@ -176,13 +176,13 @@ Summary: The Linux kernel
 %define specrpmversion 6.17.7
 %define specversion 6.17.7
 %define patchversion 6.17
-%define pkgrelease ba29
+%define pkgrelease ba29-dpaudiofix-v2
 %define kversion 6
 %define tarfile_release 6.17.7
 # This is needed to do merge window version magic
 %define patchlevel 17
 # This allows pkg_release to have configurable %%{?dist} tag
-%define specrelease ba29%{?buildid}%{?dist}
+%define specrelease ba29%{?buildid}%{?dist}-dpaudiofix-v2
 # This defines the kabi tarball version
 %define kabiversion 6.17.7
 
